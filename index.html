@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Sign In and Sign Out</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form__box form__box--login form__login-anim">
+        <div class="form__container">
+          <div class="bg sign-in__box">
+            <button class="sign__btn sign-in__btn btn">Sign In</button>
+          </div>
+          <form class="form">
+            <div class="form__items">
+              <h1>Sign Up</h1>
+              <input
+                class="form__input"
+                placeholder="User"
+                type="text"
+                name="user"
+                id="user"
+              />
+              <input
+                class="form__input"
+                placeholder="Email"
+                type="text"
+                name="email"
+                id="email"
+              />
+              <input
+                class="form__input"
+                placeholder="Password"
+                type="text"
+                name="password"
+                id="password"
+              />
+              <button class="form__btn btn">Sign Up</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="form__box form__box--signup">
+        <div class="form__container">
+          <form class="form">
+            <div class="form__items">
+              <h1>Sign In</h1>
+              <input
+                class="form__input"
+                placeholder="User"
+                type="text"
+                name="user"
+                id="user"
+              />
+              <input
+                class="form__input"
+                placeholder="Email"
+                type="text"
+                name="email"
+                id="email"
+              />
+              <input
+                class="form__input"
+                placeholder="Password"
+                type="text"
+                name="password"
+                id="password"
+              />
+              <button class="sign__btn form__btn btn">Sign In</button>
+            </div>
+          </form>
+          <div class="bg sign-in__box">
+            <button class="sign__btn sign-up__btn btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
